@@ -1,0 +1,23 @@
+{
+    "name": "knocksmg/testing",
+    "description": "to calculator difference between number",
+    "require": {},
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Knocksmg\\Testing\\PackageServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Knocksmg\\Testing\\Calculator"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Knocksmg\\Testing\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
